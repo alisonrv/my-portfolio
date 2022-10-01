@@ -1,0 +1,224 @@
+@import url('https://fonts.googleapis.com/css2?family=Abhaya+Libre:wght@800&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Georama:wght@400;600&display=swap');
+
+* {
+    margin: 0;
+    padding: 0;
+}
+
+body {
+    background: url(images/main\ -\ desktop.svg);
+    background-attachment: fixed;
+    background-repeat: no-repeat;
+}
+
+main {
+    background-attachment: fixed;
+    overflow: hidden;
+}
+
+.btn {
+    float: right;
+    margin-top: 2%;
+    margin-right: 3%;
+    border: 2px solid #8D3AAF;
+    border-radius: 15px;
+    padding: 13px;
+    color: white;
+}
+
+#botao:hover {
+    border: 2px solid #1d0029;
+    background-color: #8D3AAF;
+    color: white;
+}
+
+#writing {
+    float: left;
+}
+
+#imgProfile {
+    background: url(images/main\ -\ desktop.svg);
+    background-attachment: fixed;
+    width: 500px;
+    float: right;
+}
+
+#MyNameIs {
+    font-family: 'Abhaya Libre', serif;
+    position: absolute;
+    top: 30%;
+    margin-left: 3%;
+    color: white;
+    font-size: 3em;
+}
+
+#devalison {
+    font-family: 'Abhaya Libre', serif;
+    position: absolute;
+    top: 36%;
+    margin-left: 5%;
+    color: #934FB8;
+    font-size: 6em;
+}
+
+.chaves {
+    color: #FF11CB;
+}
+
+#student {
+    font-family: 'Abhaya Libre', serif;
+    color: white;
+    position: absolute;
+    top: 51%;
+    margin-left: 9%;
+    font-size: 1.5em;
+}
+
+#chaveInferior {
+    font-family: 'Abhaya Libre', serif;
+    position: absolute;
+    top: 56%;
+    margin-left: 3%;
+    font-size: 3em;
+}
+
+#skills {
+    font-family: 'Abhaya Libre', serif;
+    color: white;
+    position: absolute;
+    top: 68%;
+    margin-left: 3%;
+}
+
+.icons {
+    margin: 5px;
+    transition: transform .5s;
+}
+
+.icons:hover {
+    transform: scale(1.1);
+}
+
+#csharp {
+    width: 50px;
+    position: absolute;
+    top: 80%;
+}
+
+#javascript {
+    width: 70px;
+    position: absolute;
+    top: 79%;
+    margin-left: 5.6%;
+}
+
+#html5 {
+    width: 55px;
+    position: absolute;
+    top: 80%;
+    margin-left: 11.9%;
+}
+
+#css3 {
+    width: 75px;
+    position: absolute;
+    top: 77.6%;
+    margin-left: 16.6%;
+}
+
+#ubuntu {
+    width: 65px;
+    position: absolute;
+    top: 80%;
+    margin-left: 22.7%;
+}
+
+#tux {
+    width: 65px;
+    position: absolute;
+    top: 79.9%;
+    margin-left: 29%;
+}
+
+li {
+    list-style-type: none;
+}
+
+.title-sessions {
+    color: white;
+    margin-left: 3%;
+    padding-top: 3%;
+    padding-bottom: 5%;
+}
+
+#myprojects {
+    background: url(images/MyProjects.svg);
+}
+
+.box-projects {
+    color: white;
+    width: 350px;
+    height: 200px;
+    border: 2px solid white;
+    border-radius: 15px;
+    margin-left: 5%;
+    float: left;
+    margin-top: 3%;
+    transition: transform .5s;
+}
+
+.box-projects:hover {
+    background-color: #934fb8;
+    transform: scale(1.1);
+}
+
+.box-projects h4 {
+    font-family: 'Georama', sans-serif;
+    font-weight: 600;
+    margin-top: 6%;
+}
+
+.box-projects p {
+    font-family: 'Georama', sans-serif;
+    font-weight: 400;
+    width: 250px;
+    float: right;
+    margin-top: 6%;
+    margin-right: 2%;
+}
+
+article h4 {
+    text-align: center;
+}
+
+.limpar {
+    clear: both;
+    padding: 5%;
+}
+
+.icons-box-projects {
+    width: 60px;
+    margin-left: 5%;
+}
+
+#aboutme {
+    background: url(images/AboutMe.svg);
+}
+
+.conteudoAboutme {
+    font-family: 'Georama', sans-serif;
+    color: white;
+    width: 500px;
+    margin-left: 5%;
+    padding-bottom: 10px;
+    display: inline-block;
+    height: 500px;
+}
+
+.robotsImage {
+    float: right;
+    display: inline;
+    width: 400px;
+    margin-right: 9%;
+}
