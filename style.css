@@ -1,19 +1,199 @@
 @import url('https://fonts.googleapis.com/css2?family=Abhaya+Libre:wght@800&display=swap');
 @import url('https://fonts.googleapis.com/css2?family=Georama:wght@400;600&display=swap');
 
+/* Extra small devices (phones, 600px and down) */
+@media only screen and (max-width: 600px) {
+    #MyNameIs {
+        border: 1px solid red;
+    }
+}
+
+/* Small devices (portrait tablets and large phones, 600px and up) */
+@media only screen and (min-width: 600px) {
+    #MyNameIs {
+        border: 1px solid blue;
+    }
+}
+
+/* Medium devices (landscape tablets, 768px and up) */
+@media only screen and (min-width: 768px) {
+    #MyNameIs {
+        border: 1px solid pink;
+    }
+}
+
+/* Large devices (laptops/desktops, 992px and up) */
+@media only screen and (min-width: 992px) {
+    #MyNameIs {
+        border: 1px solid green;
+    }
+}
+
+/* Extra large devices (large laptops and desktops, 1200px and up) */
+@media only screen and (min-width: 1200px) {
+    main {
+        background-attachment: fixed;
+        background: rgb(0, 0, 0);
+        background: linear-gradient(176deg, rgba(0, 0, 0, 1) 0%, rgba(28, 0, 56, 1) 100%);
+    }
+
+    #MyNameIs {
+        border: 1px solid orange;
+        font-size: 6em !important;
+
+    }
+
+    #devalison {
+        margin-top: 30px;
+        font-size: 7em !important;
+    }
+
+    #student {
+        margin-top: -5px;
+    }
+
+    #imgProfile {
+        width: 750px !important;
+    }
+
+    .btn {
+        width: 210px;
+        height: 65px;
+    }
+
+    #chaveInferior {
+        margin-top: -20px;
+        font-size: 6em !important;
+    }
+
+    #skills {
+        font-size: 4em !important;
+    }
+
+    .icons {
+        transition: transform .5s;
+    }
+
+    .icons:hover {
+        transform: scale(1.4) !important;
+    }
+
+    #csharp {
+        width: 50px;
+        position: absolute;
+        top: 80%;
+        margin-left: 40px;
+    }
+
+    #javascript {
+        width: 70px;
+        position: absolute;
+        top: 79%;
+        margin-left: 5.6%;
+    }
+
+    #html5 {
+        width: 55px;
+        position: absolute;
+        top: 80%;
+        margin-left: 10% !important;
+    }
+
+    #css3 {
+        width: 75px;
+        position: absolute;
+        top: 78.4% !important;
+        margin-left: 14% !important;
+    }
+
+    #ubuntu {
+        width: 68px !important;
+        position: absolute;
+        top: 79.9% !important;
+        margin-left: 18.7% !important;
+    }
+
+    #tux {
+        width: 65px;
+        position: absolute;
+        top: 79.9%;
+        margin-left: 23.5% !important;
+    }
+
+    .title-sessions {
+        /* border: 1px solid red; */
+        font-size: 5em !important;
+        padding-bottom: -30px !important;
+    }
+
+    #myprojects {
+        background-size: cover !important;
+    }
+
+    .box-projects {
+        width: 500px !important;
+        height: 280px !important;
+        margin-left: 6.5% !important;
+        float: left;
+        margin-top: 3%;
+        transition: transform .5s;
+    }
+
+    .box-projects h4 {
+        font-family: 'Georama', sans-serif;
+        font-weight: 600;
+        margin-top: 6%;
+        font-size: 2.7em;
+    }
+
+    .box-projects:hover {
+        background-color: #934fb8;
+        transform: scale(1.3);
+    }
+
+    .box-projects p {
+        font-family: 'Georama', sans-serif;
+        font-weight: 400;
+        width: 250px;
+        float: right;
+        margin-top: 6%;
+        font-size: 1.2em;
+        margin-right: 8% !important;
+    }
+
+    .box-projects #quizConfig {
+        margin-top: 3%;
+    }
+
+    .icons-box-projects {
+        width: 100px !important;
+        margin-left: 5%;
+    }
+
+    .conteudoAboutme {
+        font-size: 1.3em;
+    }
+
+    .robotsImage {
+        width: 500px!important;
+        margin-top: -7%;
+        margin-left: 3%!important;
+    }
+    #aboutme {
+        background: url(images/AboutMe.svg);
+        padding-bottom: 200px!important;
+    }
+
+}
+
 * {
     margin: 0;
     padding: 0;
 }
 
-body {
-    background: url(images/main\ -\ desktop.svg);
-    background-attachment: fixed;
-    background-repeat: no-repeat;
-}
-
 main {
-    background-attachment: fixed;
+    background: rgb(0, 0, 0);
+    background: linear-gradient(176deg, rgba(0, 0, 0, 1) 0%, rgba(28, 0, 56, 1) 100%);
     overflow: hidden;
 }
 
@@ -38,8 +218,6 @@ main {
 }
 
 #imgProfile {
-    background: url(images/main\ -\ desktop.svg);
-    background-attachment: fixed;
     width: 500px;
     float: right;
 }
@@ -153,7 +331,8 @@ li {
 }
 
 #myprojects {
-    background: url(images/MyProjects.svg);
+    background: url(images/MyProjects.svg) no-repeat;
+
 }
 
 .box-projects {
