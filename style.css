@@ -29,8 +29,8 @@
     }
 }
 
-/* Extra large devices (large laptops and desktops, 1200px and up) */
-@media only screen and (min-width: 1200px) {
+/* Extra large devices (large laptops and desktops, 1200px and up) [FINALIZADO]*/ 
+@media only screen and (min-width: 1200px) { 
     main {
         background-attachment: fixed;
         background: rgb(0, 0, 0);
@@ -208,7 +208,6 @@
         color: blue;
         border: 2px solid #8D3AAF;
     }
-    }
     #footer{
         background: url(images/footer.svg) no-repeat;
         background-size: cover;
@@ -238,6 +237,8 @@
     .formatLinkFooter:hover{
         color:rgb(127, 212, 219);
     }
+    }
+
 
 * {
     margin: 0;
