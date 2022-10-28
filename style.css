@@ -27,10 +27,68 @@
     #MyNameIs {
         border: 1px solid green;
     }
+    .box-projects p {
+        margin-top: 3%!important;
+        margin-right: 2%;
+    }
+    .conteudoAboutme {
+        font-family: 'Georama', sans-serif;
+        color: white;
+        width: 300px!important;
+        margin-left: 5%;
+        padding-bottom: 10px;
+        display: inline-block;
+        height: 300px;
+    }
+    .robotsImage {
+        float: right;
+        display: inline!important;
+        width: 400px;
+        margin-right: 5%!important;
+        position: relative;
+        bottom: 90px;
+    }
+    #p2conteudoAboutMe{
+        position: relative;
+        bottom: 25px;
+    }
+    /* #acesseMeuIn{
+       
+    } */
+
+    .title-sessions {
+        font-size: 2.8em;
+    }
+    #ContateMe{
+        position: relative;
+        bottom: 70px;
+    }
+    #ulFooter{
+        color: white;
+        text-decoration: none;
+        font-size: 1.5em;
+        padding-bottom: 70px;
+    }
+    #ulFooter li {
+        display: inline-block;
+        margin: 0 150px;
+    }
+    #blackFooter{
+        background-color: black;
+        color: white;
+        text-align: center;
+    }
+    .iconContact{
+        width: 40px!important;
+        height: 30px!important;
+    }
+    .formatUserSocialFooter{
+        margin-left: 10px;
+    }
 }
 
 /* Extra large devices (large laptops and desktops, 1200px and up) [FINALIZADO]*/ 
-@media only screen and (min-width: 1200px) { 
+@media only screen and (min-width: 1500px) { 
     main {
         background-attachment: fixed;
         background: rgb(0, 0, 0);
@@ -461,4 +519,51 @@ article h4 {
 a{
     text-decoration: none;
     color: white;
+}
+#acesseMeuIn{
+    display: block;
+    margin-right: 1310px;
+    position: relative;
+    bottom: 220px;
+    width: 200px;
+    height: 70px;
+    border: 1px solid white;
+}
+#acesseMeuIn span{
+    position: relative;
+    bottom: 10px;
+}
+#acesseMeuIn:hover{
+    background-color: white;
+    color: blue;
+    border: 2px solid #8D3AAF;
+}
+#footer{
+    background: url(images/footer.svg) no-repeat;
+    background-size: cover;
+}
+#ulFooter{
+    color: white;
+    text-decoration: none;
+    font-size: 1.5em;
+    padding-bottom: 70px;
+}
+#ulFooter li {
+    display: inline-block;
+    margin: 0 150px;
+}
+#blackFooter{
+    background-color: black;
+    color: white;
+    text-align: center;
+}
+.iconContact{
+    width: 70px;
+    height: 60px;
+}
+.formatUserSocialFooter{
+    margin-left: 10px;
+}
+.formatLinkFooter:hover{
+    color:rgb(127, 212, 219);
 }
